@@ -326,8 +326,9 @@ const Menu = ({ onMenuStateChange }) => {
               >
                 <img
                   className="logo-img"
-                  src="/images/logos/logo_light.png"
-                  alt=""
+                  src="/icon.png"
+                  alt="Wu Wei Studio Icon"
+                  style={{ width: 40, height: 40, objectFit: 'contain' }}
                 />
               </a>
             </div>

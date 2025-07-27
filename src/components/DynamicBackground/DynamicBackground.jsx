@@ -1,7 +1,7 @@
 "use client";
 import { useEffect, useRef } from "react";
 
-const DynamicBackground = ({ logoPath = "/images/logos/logo_light.png" }) => {
+const DynamicBackground = ({ logoPath = "/images/logos/hoi_logo.png" }) => {
   const canvasRef = useRef(null);
   const animationFrameRef = useRef(null);
   const programRef = useRef(null);

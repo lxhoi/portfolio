@@ -87,9 +87,11 @@ const page = () => {
   });
 
   return (
+
     <>
       <div className="studio" ref={studioRef}>
         <section className="studio-hero">
+          <img src="/icon.png" alt="Wu Wei Studio Icon" style={{ height: 80, marginBottom: 16 }} />
           <h1 className="caps">Wu</h1>
         </section>
 

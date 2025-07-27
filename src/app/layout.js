@@ -5,8 +5,8 @@ import ClientLayout from "@/client-layout";
 import { ViewTransitions } from "next-view-transitions";
 
 export const metadata = {
-  title: "WuWei Studio — Codegrid",
-  description: "Creative Studio MWT Website Template — Codegrid",
+  title: "HOIBRANDS | Creative Studio",
+  description: "Brand designer portfolio and identity showcase by HOIBRANDS.",
 };
 
 export default function RootLayout({ children }) {

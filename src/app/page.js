@@ -164,7 +164,7 @@ export default function Home() {
       )}
 
       <section className="hero">
-        <DynamicBackground logoPath="/images/logos/logo_light.png" />
+        <DynamicBackground logoPath="/images/logos/hoi_logo.png" />
 
         <div className="hero-content">
           <div className="hero-header">
@@ -172,8 +172,7 @@ export default function Home() {
             <div className="hero-header-col-sm">
               <Copy animateOnScroll={false} delay={showPreloader ? 6.2 : 0.9}>
                 <h3>
-                  Systems thinking and creative execution brought into web
-                  development for consistent outcomes.
+                  Branding is the art of connection and meaning.
                 </h3>
               </Copy>
             </div>
@@ -183,16 +182,16 @@ export default function Home() {
             <div className="hero-footer-col-lg">
               <Copy animateOnScroll={false} delay={showPreloader ? 6.2 : 0.9}>
                 <p className="sm caps mono">Studios</p>
-                <p className="sm caps mono">Toronto and Copenhagen</p>
+                <p className="sm caps mono">HCMC, Vietnam</p>
               </Copy>
             </div>
             <div className="hero-footer-col-sm">
               <div className="hero-tags">
                 <Copy animateOnScroll={false} delay={showPreloader ? 6.2 : 0.9}>
-                  <p className="sm caps mono">Web Systems</p>
-                  <p className="sm caps mono">Interface Design</p>
-                  <p className="sm caps mono">Creative Development</p>
-                  <p className="sm caps mono">End to End Delivery</p>
+                  <p className="sm caps mono">BRAND IDENTITY</p>
+                  <p className="sm caps mono">AI GRAPHIC ARTIST</p>
+                  <p className="sm caps mono">WEB DESIGN</p>
+                  <p className="sm caps mono">MOTION GRAPHICS</p>
                 </Copy>
               </div>
 
