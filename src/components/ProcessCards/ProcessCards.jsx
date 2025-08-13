@@ -11,31 +11,31 @@ const ProcessCards = () => {
   const processCardsData = [
     {
       index: "01",
-      title: "Principles",
+      title: "Research",
       image: "/images/process/process_001.jpeg",
       description:
-        "We design with restraint and intention. Every decision is shaped by a set of values—clarity, structure, and calm execution.",
+        "Understand goals, research the market, gather references, and define the project scope.",
     },
     {
       index: "02",
-      title: "Approach",
+      title: "Concept",
       image: "/images/process/process_002.jpeg",
       description:
-        "Our process is iterative and deliberate. We prioritize simplicity over excess, and build systems that scale with clarity.",
+        "Develop ideas, create mood boards, sketch directions, and present for feedback.",
     },
     {
       index: "03",
-      title: "Practice",
+      title: "Design",
       image: "/images/process/process_003.jpeg",
       description:
-        "We work at the intersection of design and code. Every detail is shaped by consistency, rhythm, and quiet precision.",
+        "Refine chosen concepts, apply branding consistently, and integrate AI tools where needed.",
     },
     {
       index: "04",
-      title: "Vision",
+      title: "Deliver",
       image: "/images/process/process_004.jpeg",
       description:
-        "We believe the web should feel honest and effortless. Our aim is to create digital experiences that stand the test of time.",
+        "Finalize files, ensure quality, and hand over all assets with guidelines if required.",
     },
   ];
 

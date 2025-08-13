@@ -5,7 +5,7 @@
   --background-200: #141414;
   --foreground: #e4e7df;
   --foreground-200: #666666;
-  --btn-icon: #ffc22a;
+  --btn-icon: rgb(255, 255, 255);
 }
 
 @font-face {

@@ -91,13 +91,13 @@ const page = () => {
     <>
       <div className="studio" ref={studioRef}>
         <section className="studio-hero">
-          <img src="/icon.png" alt="Wu Wei Studio Icon" style={{ height: 80, marginBottom: 16 }} />
-          <h1 className="caps">Wu</h1>
+          <img src="/icon.png" alt="HOIBRANDS Icon" style={{ height: 80, marginBottom: 16 }} />
+          <h1 className="caps">LXH </h1>
         </section>
 
         <section className="studio-hero-img">
           <div className="studio-hero-img-wrapper">
-            <img src="/images/studio/hero.jpeg" alt="" />
+            <img src="/images/studio/hero.png" alt="" />
           </div>
         </section>
 
@@ -105,10 +105,10 @@ const page = () => {
           <div className="studio-header-copy">
             <Copy>
               <h2>
-                At Wu Wei Studio, we approach every project with quiet focus.
-                Through close collaboration and considered process, we build
-                digital work that reflects both the needs of our clients and the
-                values of our practice.
+                My strongest expertise is in brand identity design and graphic design, 
+                followed by UI design and motion design. 
+                I am proficient in English and AI to support my work.
+                I solve problems flexibly and deliver work with precision and polish.
               </h2>
             </Copy>
           </div>
@@ -122,17 +122,14 @@ const page = () => {
             <div className="mission-intro-copy">
               <Copy>
                 <h3>
-                  We are a digital studio dedicated to creating clear and
-                  purposeful online experiences. Our work is rooted in
-                  structure, guided by systems, and shaped through close
-                  collaboration.
+                  My name is Hoi Le - founder of HOIBRANDS studio.
+                  I am a graphic designer with over 5 years of experience working with clients. 
+                  I can create brand identity systems, printed and digital materials, website designs, and motion graphics. 
                 </h3>
                 <br />
                 <h3>
-                  With a focus on design and development, we build scalable
-                  solutions that reflect quiet precision and long-term value.
-                  Every project is an exercise in restraint, intention, and
-                  technical care.
+                  My strengths include strong English skills 
+                  and proficiency in using AI tools to enhance my professional work.
                 </h3>
               </Copy>
 
@@ -151,10 +148,9 @@ const page = () => {
               <p className="sm caps">(Recognition)</p>
               <br />
               <h2>
-                Our work has been recognized by digital platforms and design
-                communities for its clarity, consistency, and attention to
-                detail. We focus on building systems that go beyond visuals
-                experiences.
+                Completed over 300+ brand identity projects for clients in various industries. 
+                Served as an AI design advisor for major companies. 
+                Created a wide range of impactful products and design assets used by brands in Vietnam and abroad.
               </h2>
             </Copy>
           </div>

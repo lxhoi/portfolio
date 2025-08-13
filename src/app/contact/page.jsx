@@ -99,32 +99,32 @@ const page = () => {
     <div className="contact" ref={contactRef}>
       <div className="contact-img-wrapper">
         <div className="contact-img">
-          <img src="/images/contact/contact.jpeg" alt="" />
+          <img src="/images/studio/hero.png" alt="" />
         </div>
       </div>
       <div className="contact-copy">
         <div className="contact-copy-bio">
           <Copy delay={1}>
-            <p className="caps sm">Wu Wei Studios</p>
-            <p className="caps sm">Toronto / Copenhagen</p>
+            <p className="caps sm">HOIBRANDS Studios</p>
+            <p className="caps sm">HCMC  / Vietnam</p>
           </Copy>
         </div>
 
         <div className="contact-copy-tags">
           <Copy delay={1.15}>
-            <p className="caps sm">Web Systems</p>
-            <p className="caps sm">Interface Design</p>
-            <p className="caps sm">Creative Development</p>
-            <p className="caps sm">End To End Delivery</p>
+            <p className="caps sm">Branding Design</p>
+            <p className="caps sm">Graphic Design</p>
+            <p className="caps sm">Motion Design</p>
+            <p className="caps sm">Web Design</p>
           </Copy>
         </div>
 
         <div className="contact-copy-addresses">
           <div className="contact-address">
             <Copy delay={1.3}>
-              <p className="caps sm">Toronto</p>
-              <p className="caps sm">Studio 302, Richmond St W</p>
-              <p className="caps sm">M5V 3A8</p>
+              <p className="caps sm">AI-Proficient</p>
+              <p className="caps sm">Attention to Detail</p>
+              <p className="caps sm">Driven by Quality</p>
             </Copy>
           </div>
 
@@ -156,7 +156,7 @@ const page = () => {
         <div className="fc-col-lg">
           <div className="footer-text">
             <div className="footer-text-content">
-              <p className="sm caps">Developed by Codegrid</p>
+              <p className="sm caps">Developed by HOIBRANDS</p>
             </div>
           </div>
         </div>

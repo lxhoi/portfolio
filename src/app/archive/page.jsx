@@ -37,7 +37,7 @@ const Archive = () => {
 
       const imgElement = document.createElement("img");
       const randomImageNumber = Math.floor(Math.random() * 50) + 1;
-      imgElement.src = `/images/archive/img${randomImageNumber}.jpeg`;
+      imgElement.src = `/images/archive/img${randomImageNumber}.png`;
       img.appendChild(imgElement);
 
       gallery.appendChild(img);

@@ -54,25 +54,25 @@ const Footer = () => {
             </div>
           </div>
           <div className="footer-social">
-            <a href="mailto:contact@codegrid.com">
+            <a href="mailto:lxhoi.2k@gmail.com">
               <div className="footer-text">
                 <div className="footer-text-content">
-                  <h2>Email</h2>
+                  <h2>lxhoi.2k@gmail.com</h2>
                 </div>
               </div>
             </a>
           </div>
           <div className="footer-social">
-            <a href="https://www.youtube.com/@codegrid">
+            <a href="tel:+84912345678">
               <div className="footer-text">
                 <div className="footer-text-content">
-                  <h2>LinkedIn</h2>
+                  <h2>+84 0812914786</h2>
                 </div>
               </div>
             </a>
           </div>
           <div className="footer-social">
-            <a href="https://www.youtube.com/@codegrid">
+            <a href="https://www.behance.net/uniqbrandofficial">
               <div className="footer-text">
                 <div className="footer-text-content">
                   <h2>Behance</h2>
@@ -81,19 +81,10 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer-social">
-            <a href="https://www.youtube.com/@codegrid">
+            <a href="https://www.instagram.com/lexuanhoi.brands/">
               <div className="footer-text">
                 <div className="footer-text-content">
                   <h2>Instagram</h2>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div className="footer-social">
-            <a href="https://vimeo.com/codegrid">
-              <div className="footer-text">
-                <div className="footer-text-content">
-                  <h2>Vimeo</h2>
                 </div>
               </div>
             </a>
@@ -105,7 +96,7 @@ const Footer = () => {
         <div className="fc-col-lg">
           <div className="footer-text">
             <div className="footer-text-content">
-              <p className="sm caps">Developed by Codegrid</p>
+              <p className="sm caps">Developed by HOIBRANDS</p>
             </div>
           </div>
         </div>

@@ -189,7 +189,7 @@ export default function Home() {
               <div className="hero-tags">
                 <Copy animateOnScroll={false} delay={showPreloader ? 6.2 : 0.9}>
                   <p className="sm caps mono">BRAND IDENTITY</p>
-                  <p className="sm caps mono">AI GRAPHIC ARTIST</p>
+                  <p className="sm caps mono">AI GRAPHIC ARTWORK</p>
                   <p className="sm caps mono">WEB DESIGN</p>
                   <p className="sm caps mono">MOTION GRAPHICS</p>
                 </Copy>

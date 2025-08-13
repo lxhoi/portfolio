@@ -55,8 +55,8 @@ const page = () => {
     );
   }
 
-  const navigateToProject = () => {
-    router.push("/sample-project", {
+  const navigateToProject = (slug) => {
+    router.push(`/project/${slug}`, {
       onTransitionReady: slideInOut,
     });
   };
@@ -231,7 +231,7 @@ const page = () => {
                   <div
                     key={projectIndex}
                     className="work-project"
-                    onClick={navigateToProject}
+                    onClick={() => navigateToProject(project.slug)}
                     style={{ cursor: "pointer" }}
                   >
                     <div className="work-project-img">
