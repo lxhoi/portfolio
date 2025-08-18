@@ -98,7 +98,7 @@ const page = () => {
     <div className="sample-project" ref={sampleProjectRef}>
       <section className="sp-hero">
         <Copy delay={0.85}>
-          <h1>Bunni Play</h1>
+          <h1>2024 Logofolio</h1>
         </Copy>
       </section>
 
@@ -211,16 +211,27 @@ const page = () => {
       </section>
 
       <section className="sp-next-project">
-        <div className="sp-next-project-copy">
-          <Copy>
-            <p className="sm">(More Projects)</p>
-          </Copy>
-          <div className="sp-next-project-names">
-            <Copy>
-              <h1>Hidden Signal</h1>
-            </Copy>
-          </div>
-        </div>
+                          <div className="sp-next-project-copy">
+                            <Copy>
+                              <p
+                                className="sm"
+                                style={{ cursor: "pointer" }}
+                                onClick={() => window.location.href = "/work"}
+                              >
+                                (More Projects)
+                              </p>
+                            </Copy>
+                            <div className="sp-next-project-names">
+                              <Copy>
+                                <h1
+                                  style={{ cursor: "pointer" }}
+                                  onClick={() => window.location.href = "/project/port24"}
+                                >
+                                  2024 Logofolio
+                                </h1>
+                              </Copy>
+                            </div>
+                          </div>
       </section>
     </div>
   );

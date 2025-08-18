@@ -126,7 +126,7 @@ const page = () => {
 
             <div className="client">
               <Copy delay={0.3}>
-                <p className="sm caps mono">Self-Initiated</p>
+                <p className="sm caps mono">HOIBRANDS</p>
               </Copy>
             </div>
           </div>
@@ -154,7 +154,7 @@ const page = () => {
 
               <div className="sp-link">
                 <div className="sp-link-wrapper">
-                  <BtnLink route="/" label="Live Demo" />
+                  <BtnLink route="/contact" label="contact" />
                 </div>
               </div>
             </div>
@@ -210,9 +210,9 @@ const page = () => {
             <Copy>
               <h1
                 style={{ cursor: "pointer" }}
-                onClick={() => window.location.href = "/project/topazio-apartments"}
+                onClick={() => window.location.href = "/project/topazio"}
               >
-                Topazio Apartments
+                Topazio Phuc Yen
               </h1>
             </Copy>
           </div>

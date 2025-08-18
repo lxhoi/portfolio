@@ -120,13 +120,13 @@ const page = () => {
           <div className="sp-col sp-col-sm">
             <div className="sp-year">
               <Copy delay={0.15}>
-                <p className="sm caps mono">2025</p>
+                <p className="sm caps mono">2024</p>
               </Copy>
             </div>
 
             <div className="client">
               <Copy delay={0.3}>
-                <p className="sm caps mono">Self-Initiated</p>
+                <p className="sm caps mono">HOIBRANDS</p>
               </Copy>
             </div>
           </div>
@@ -136,7 +136,7 @@ const page = () => {
           <div className="sp-col-lg">
             <div className="sp-copy-title">
               <Copy>
-                <h3>Exploring Motion Through Structured Design</h3>
+                <h3>Shaping An Nhien Tea into a modern yet soulful gift of wellness.</h3>
               </Copy>
             </div>
           </div>
@@ -144,26 +144,23 @@ const page = () => {
             <div className="sp-copy-description">
               <Copy>
                 <p>
-                  Timefold 22 is an exploration of motion through layered
-                  temporal loops. Built with a modular design system, the
-                  visuals pulse and stretch to reflect the elasticity of time in
-                  digital environments. The concept embraces minimal forms with
-                  high contrast dynamics to suggest an ongoing shift — folding
-                  the present into an abstract continuum.
+                  An Nhien is a Vietnamese herbal tea brand from Da Lat with a story of bringing 
+                  peace to the souls of tea drinkers. An Nhien's herbal tea products have both traditional and modern design. 
+                  Many customers choose to make meaningful gifts. 
+                  An Nhien works hard every day to create prestigious, high-quality, healthy Dalat specialty products, 
+                  beautiful packaging, and satisfied after-sales.
                 </p>
                 <br />
                 <p>
-                  Designed as a speculative identity for a non-linear brand
-                  system, this piece operates both as a visual experiment and a
-                  creative prompt. Every frame is composed to highlight rhythm,
-                  silence, and distortion — aimed at evoking a subtle tension
-                  between chaos and control.
+                  An Nhien always has the desire to introduce to the whole world such good products from its hometown. 
+                  An Nhien Tea wishes to bring to you a different experience about tea and the art of enjoying tea. 
+                  Moreover, you are catching up with a trendy style in the world, which is now starting to create a fever in Vietnam.
                 </p>
               </Copy>
 
               <div className="sp-link">
                 <div className="sp-link-wrapper">
-                  <BtnLink route="/" label="Live Demo" />
+                  <BtnLink route="/contact" label="Contact" />
                 </div>
               </div>
             </div>
@@ -199,16 +196,27 @@ const page = () => {
       </section>
 
       <section className="sp-next-project">
-        <div className="sp-next-project-copy">
-          <Copy>
-            <p className="sm">(More Projects)</p>
-          </Copy>
-          <div className="sp-next-project-names">
-            <Copy>
-              <h1>Hidden Signal</h1>
-            </Copy>
-          </div>
-        </div>
+                    <div className="sp-next-project-copy">
+                      <Copy>
+                        <p
+                          className="sm"
+                          style={{ cursor: "pointer" }}
+                          onClick={() => window.location.href = "/work"}
+                        >
+                          (More Projects)
+                        </p>
+                      </Copy>
+                      <div className="sp-next-project-names">
+                        <Copy>
+                          <h1
+                            style={{ cursor: "pointer" }}
+                            onClick={() => window.location.href = "/project/she"}
+                          >
+                            SHE Blockchains
+                          </h1>
+                        </Copy>
+                      </div>
+                    </div>
       </section>
     </div>
   );

@@ -120,13 +120,13 @@ const page = () => {
           <div className="sp-col sp-col-sm">
             <div className="sp-year">
               <Copy delay={0.15}>
-                <p className="sm caps mono">2025</p>
+                <p className="sm caps mono">2024</p>
               </Copy>
             </div>
 
             <div className="client">
               <Copy delay={0.3}>
-                <p className="sm caps mono">Self-Initiated</p>
+                <p className="sm caps mono">HOIBRANDS</p>
               </Copy>
             </div>
           </div>
@@ -144,26 +144,23 @@ const page = () => {
             <div className="sp-copy-description">
               <Copy>
                 <p>
-                  Timefold 22 is an exploration of motion through layered
-                  temporal loops. Built with a modular design system, the
-                  visuals pulse and stretch to reflect the elasticity of time in
-                  digital environments. The concept embraces minimal forms with
-                  high contrast dynamics to suggest an ongoing shift — folding
-                  the present into an abstract continuum.
+                  In order to solve the story of pulling women closer to the Blockchain field, 
+                  recently S.H.E Blockchain organization was born with the aim of inspiring and 
+                  creating opportunities for women to participate in this industry.
                 </p>
                 <br />
                 <p>
-                  Designed as a speculative identity for a non-linear brand
-                  system, this piece operates both as a visual experiment and a
-                  creative prompt. Every frame is composed to highlight rhythm,
-                  silence, and distortion — aimed at evoking a subtle tension
-                  between chaos and control.
+                  S.H.E Blockchain is sponsored by Vietnam Blockchain Union (VBU) of Vietnam Digital Media Association. 
+                  VBU is a recently established Alliance to advise and advise regulatory agencies to develop policies 
+                  and legal frameworks on Blockchain, digital assets and digital currencies in Vietnam. The appearance 
+                  of S.H.E Blockchain is considered to blow a new breath and add a quality human resource, contributing 
+                  to the development of the Blockchain industry in Vietnam in the future.
                 </p>
               </Copy>
 
               <div className="sp-link">
                 <div className="sp-link-wrapper">
-                  <BtnLink route="/" label="Live Demo" />
+                  <BtnLink route="/contact" label="Contact" />
                 </div>
               </div>
             </div>
@@ -205,16 +202,27 @@ const page = () => {
       </section>
 
       <section className="sp-next-project">
-        <div className="sp-next-project-copy">
-          <Copy>
-            <p className="sm">(More Projects)</p>
-          </Copy>
-          <div className="sp-next-project-names">
-            <Copy>
-              <h1>Hidden Signal</h1>
-            </Copy>
-          </div>
-        </div>
+                    <div className="sp-next-project-copy">
+                      <Copy>
+                        <p
+                          className="sm"
+                          style={{ cursor: "pointer" }}
+                          onClick={() => window.location.href = "/work"}
+                        >
+                          (More Projects)
+                        </p>
+                      </Copy>
+                      <div className="sp-next-project-names">
+                        <Copy>
+                          <h1
+                            style={{ cursor: "pointer" }}
+                            onClick={() => window.location.href = "/project/bunni"}
+                          >
+                            Bunni Play
+                          </h1>
+                        </Copy>
+                      </div>
+                    </div>
       </section>
     </div>
   );
