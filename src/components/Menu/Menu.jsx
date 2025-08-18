@@ -421,7 +421,7 @@ const Menu = ({ onMenuStateChange }) => {
           <div className="menu-footer" ref={menuFooterColsRef}>
             <div className="menu-footer-col">
               <div className="revealer">
-                <p className="sm caps mono">&copy; 2025 All Rights Reserved</p>
+                <p className="sm caps mono">&copy; HOIBRANDS - All Rights Reserved</p>
               </div>
             </div>
             <div className="menu-footer-col">
@@ -429,22 +429,22 @@ const Menu = ({ onMenuStateChange }) => {
                 <div className="revealer">
                   <a
                     className="sm caps mono"
-                    href="https://www.youtube.com/@codegrid"
+                    href="+84812914786"
                   >
-                    YouTube
+                    +84 812 914 786
                   </a>
                 </div>
                 <div className="revealer">
                   <a
                     className="sm caps mono"
-                    href="https://www.instagram.com/codegridweb/"
+                    href="lxhoi.2k@gmail.com"
                   >
-                    Instagram
+                    Email
                   </a>
                 </div>
                 <div className="revealer">
-                  <a className="sm caps mono" href="https://x.com/codegridweb">
-                    X
+                  <a className="sm caps mono" href="https://www.facebook.com/lexuanhoi.brand/">
+                    Facebook
                   </a>
                 </div>
               </div>

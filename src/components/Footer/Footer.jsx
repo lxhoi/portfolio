@@ -72,10 +72,10 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer-social">
-            <a href="https://www.behance.net/uniqbrandofficial">
+            <a href="https://www.facebook.com/lexuanhoi.brand/">
               <div className="footer-text">
                 <div className="footer-text-content">
-                  <h2>Behance</h2>
+                  <h2>Facebook</h2>
                 </div>
               </div>
             </a>
@@ -103,7 +103,7 @@ const Footer = () => {
         <div className="fc-col-sm">
           <div className="footer-text">
             <div className="footer-text-content">
-              <p className="sm caps">&copy; 2025 All Rights Reserved</p>
+              <p className="sm caps">&copy; HOIBRANDS - All Rights Reserved</p>
             </div>
           </div>
         </div>
