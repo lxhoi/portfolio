@@ -198,9 +198,6 @@ const page = () => {
           <div className="sp-img">
             <img src="/images/work/bunni/bunni_9.png" alt="" />
           </div>
-          <div className="sp-img">
-            <img src="/images/work/bunni/bunni_10.png" alt="" />
-          </div>
         </div>
       </section>
 
