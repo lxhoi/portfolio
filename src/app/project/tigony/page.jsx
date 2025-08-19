@@ -126,7 +126,7 @@ const page = () => {
 
             <div className="client">
               <Copy delay={0.3}>
-                <p className="sm caps mono">Self-Initiated</p>
+                <p className="sm caps mono">HOIBRANDS</p>
               </Copy>
             </div>
           </div>
@@ -136,7 +136,7 @@ const page = () => {
           <div className="sp-col-lg">
             <div className="sp-copy-title">
               <Copy>
-                <h3>Exploring Motion Through Structured Design</h3>
+                <h3>Your Home, Your Story, Our Design</h3>
               </Copy>
             </div>
           </div>
@@ -144,26 +144,23 @@ const page = () => {
             <div className="sp-copy-description">
               <Copy>
                 <p>
-                  Timefold 22 is an exploration of motion through layered
-                  temporal loops. Built with a modular design system, the
-                  visuals pulse and stretch to reflect the elasticity of time in
-                  digital environments. The concept embraces minimal forms with
-                  high contrast dynamics to suggest an ongoing shift — folding
-                  the present into an abstract continuum.
+                  Tigony has been making the world more beautiful one room at a time, 
+                  with individually owned and operated franchises throughout Viet Nam. 
+                  No matter your design style, they experienced designers will help you 
+                  create a design that perfectly reflects the way you live in your home. 
+                  Their goal is to provide an incomparable, fun design experience for every customer.
                 </p>
                 <br />
                 <p>
-                  Designed as a speculative identity for a non-linear brand
-                  system, this piece operates both as a visual experiment and a
-                  creative prompt. Every frame is composed to highlight rhythm,
-                  silence, and distortion — aimed at evoking a subtle tension
-                  between chaos and control.
+                  They do this through delivering outstanding design, quality products and exceptional service. 
+                  Once your design is finalized, they coordinate everything from ordering to installation. 
+                  Creating beautiful and unique living spaces has never been so simple.
                 </p>
               </Copy>
 
               <div className="sp-link">
                 <div className="sp-link-wrapper">
-                  <BtnLink route="/" label="Live Demo" />
+                  <BtnLink route="/contact" label="contact" />
                 </div>
               </div>
             </div>
@@ -208,17 +205,28 @@ const page = () => {
       </section>
 
       <section className="sp-next-project">
-        <div className="sp-next-project-copy">
-          <Copy>
-            <p className="sm">(More Projects)</p>
-          </Copy>
-          <div className="sp-next-project-names">
-            <Copy>
-              <h1>Hidden Signal</h1>
-            </Copy>
-          </div>
-        </div>
-      </section>
+              <div className="sp-next-project-copy">
+                <Copy>
+                  <p
+                    className="sm"
+                    style={{ cursor: "pointer" }}
+                    onClick={() => window.location.href = "/work"}
+                  >
+                    (More Projects)
+                  </p>
+                </Copy>
+                <div className="sp-next-project-names">
+                  <Copy>
+                    <h1
+                      style={{ cursor: "pointer" }}
+                      onClick={() => window.location.href = "/project/port25"}
+                    >
+                      2025 Logofolio
+                    </h1>
+                  </Copy>
+                </div>
+              </div>
+            </section>
     </div>
   );
 };

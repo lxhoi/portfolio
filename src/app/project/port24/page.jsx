@@ -126,7 +126,7 @@ const page = () => {
 
             <div className="client">
               <Copy delay={0.3}>
-                <p className="sm caps mono">Self-Initiated</p>
+                <p className="sm caps mono">HOIBRANDS</p>
               </Copy>
             </div>
           </div>
@@ -136,7 +136,7 @@ const page = () => {
           <div className="sp-col-lg">
             <div className="sp-copy-title">
               <Copy>
-                <h3>Exploring Directions Through Structured Design</h3>
+                <h3>Stories in Symbols</h3>
               </Copy>
             </div>
           </div>
@@ -144,17 +144,15 @@ const page = () => {
             <div className="sp-copy-description">
               <Copy>
                 <p>
-                  OGS.VN is a software platform that uses blockchain and artificial intelligence 
-                  to build applications to improve civil infrastructure. 
-                  The company's tools automate and accelerate the construction industry's workflow,
-                  management and verification, and its technology also integrates with wearables 
-                  to meet safety regulations.
+                  This logofolio presents a journey through crafted marks and brand identities.
+                  Every design is more than a logo—it is a story distilled into form,
+                  created to reflect meaning, inspire recognition, and define presence.
                 </p>
               </Copy>
 
               <div className="sp-link">
                 <div className="sp-link-wrapper">
-                  <BtnLink route="/" label="Live Demo" />
+                  <BtnLink route="/contact" label="contact" />
                 </div>
               </div>
             </div>
@@ -201,9 +199,9 @@ const page = () => {
             <Copy>
               <h1
                 style={{ cursor: "pointer" }}
-                onClick={() => window.location.href = "/project/hidden-signal"}
+                onClick={() => window.location.href = "/project/allled"}
               >
-                Hidden Signal
+                Allled Vietnam
               </h1>
             </Copy>
           </div>

@@ -208,16 +208,27 @@ const page = () => {
       </section>
 
       <section className="sp-next-project">
-        <div className="sp-next-project-copy">
-          <Copy>
-            <p className="sm">(More Projects)</p>
-          </Copy>
-          <div className="sp-next-project-names">
-            <Copy>
-              <h1>Hidden Signal</h1>
-            </Copy>
-          </div>
-        </div>
+                                <div className="sp-next-project-copy">
+                                  <Copy>
+                                    <p
+                                      className="sm"
+                                      style={{ cursor: "pointer" }}
+                                      onClick={() => window.location.href = "/work"}
+                                    >
+                                      (More Projects)
+                                    </p>
+                                  </Copy>
+                                  <div className="sp-next-project-names">
+                                    <Copy>
+                                      <h1
+                                        style={{ cursor: "pointer" }}
+                                        onClick={() => window.location.href = "/project/tigony"}
+                                      >
+                                        Tigony Interiors
+                                      </h1>
+                                    </Copy>
+                                  </div>
+                                </div>
       </section>
     </div>
   );

@@ -98,7 +98,7 @@ const page = () => {
     <div className="sample-project" ref={sampleProjectRef}>
       <section className="sp-hero">
         <Copy delay={0.85}>
-          <h1>2024 Logofolio</h1>
+          <h1>Bunni Play</h1>
         </Copy>
       </section>
 
@@ -126,7 +126,7 @@ const page = () => {
 
             <div className="client">
               <Copy delay={0.3}>
-                <p className="sm caps mono">Self-Initiated</p>
+                <p className="sm caps mono">HOIBRANDS</p>
               </Copy>
             </div>
           </div>
@@ -136,7 +136,7 @@ const page = () => {
           <div className="sp-col-lg">
             <div className="sp-copy-title">
               <Copy>
-                <h3>Exploring Motion Through Structured Design</h3>
+                <h3>Hop into the Future with BunniPlay</h3>
               </Copy>
             </div>
           </div>
@@ -144,26 +144,20 @@ const page = () => {
             <div className="sp-copy-description">
               <Copy>
                 <p>
-                  Timefold 22 is an exploration of motion through layered
-                  temporal loops. Built with a modular design system, the
-                  visuals pulse and stretch to reflect the elasticity of time in
-                  digital environments. The concept embraces minimal forms with
-                  high contrast dynamics to suggest an ongoing shift — folding
-                  the present into an abstract continuum.
+                  BunniPlay is a playful and immersive VR brand identity designed to capture the excitement 
+                  of hopping into new worlds. The logo and visuals combine fun, energy, 
+                  and adventure—perfectly reflecting the spirit of next-level virtual experiences.
                 </p>
                 <br />
                 <p>
-                  Designed as a speculative identity for a non-linear brand
-                  system, this piece operates both as a visual experiment and a
-                  creative prompt. Every frame is composed to highlight rhythm,
-                  silence, and distortion — aimed at evoking a subtle tension
-                  between chaos and control.
+                  BunniPlay invites you to hop into limitless VR adventures. With a fun and dynamic brand identity, 
+                  it captures the thrill of exploring new worlds and the joy of play without boundaries.
                 </p>
               </Copy>
 
               <div className="sp-link">
                 <div className="sp-link-wrapper">
-                  <BtnLink route="/" label="Live Demo" />
+                  <BtnLink route="/contact" label="contact" />
                 </div>
               </div>
             </div>

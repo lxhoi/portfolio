@@ -136,7 +136,7 @@ const page = () => {
           <div className="sp-col-lg">
             <div className="sp-copy-title">
               <Copy>
-                <h3>Exploring Motion Through Structured Design</h3>
+                <h3>"Molecules in Motion" - dynamic visuals with flowing shapes to represent supply chains.</h3>
               </Copy>
             </div>
           </div>
@@ -144,26 +144,21 @@ const page = () => {
             <div className="sp-copy-description">
               <Copy>
                 <p>
-                  Timefold 22 is an exploration of motion through layered
-                  temporal loops. Built with a modular design system, the
-                  visuals pulse and stretch to reflect the elasticity of time in
-                  digital environments. The concept embraces minimal forms with
-                  high contrast dynamics to suggest an ongoing shift — folding
-                  the present into an abstract continuum.
+                  TTP Foods Company Limited is the global market leader in chemical and ingredients distribution. 
+                  The Vietnam based international company manages complex supply chains for both chemical manufacturers 
+                  and consumers by simplifying market access to thousands of products and services. 
+                  It combines a global network with outstanding local execution. 
                 </p>
                 <br />
                 <p>
-                  Designed as a speculative identity for a non-linear brand
-                  system, this piece operates both as a visual experiment and a
-                  creative prompt. Every frame is composed to highlight rhythm,
-                  silence, and distortion — aimed at evoking a subtle tension
-                  between chaos and control.
+                  Therefore, Brenntag is the industry’s most effective and preferred channel 
+                  to the market for partners - really living its philosophy: “ConnectingChemistry”.
                 </p>
               </Copy>
 
               <div className="sp-link">
                 <div className="sp-link-wrapper">
-                  <BtnLink route="/" label="Live Demo" />
+                  <BtnLink route="/contact" label="contact" />
                 </div>
               </div>
             </div>
@@ -199,17 +194,28 @@ const page = () => {
       </section>
 
       <section className="sp-next-project">
-        <div className="sp-next-project-copy">
-          <Copy>
-            <p className="sm">(More Projects)</p>
-          </Copy>
-          <div className="sp-next-project-names">
-            <Copy>
-              <h1>Hidden Signal</h1>
-            </Copy>
-          </div>
-        </div>
-      </section>
+                          <div className="sp-next-project-copy">
+                            <Copy>
+                              <p
+                                className="sm"
+                                style={{ cursor: "pointer" }}
+                                onClick={() => window.location.href = "/work"}
+                              >
+                                (More Projects)
+                              </p>
+                            </Copy>
+                            <div className="sp-next-project-names">
+                              <Copy>
+                                <h1
+                                  style={{ cursor: "pointer" }}
+                                  onClick={() => window.location.href = "/project/vivana"}
+                                >
+                                  Vivana
+                                </h1>
+                              </Copy>
+                            </div>
+                          </div>
+        </section>
     </div>
   );
 };

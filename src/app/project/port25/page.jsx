@@ -136,7 +136,7 @@ const page = () => {
           <div className="sp-col-lg">
             <div className="sp-copy-title">
               <Copy>
-                <h3>Exploring Directions Through Structured Design</h3>
+                <h3>A Journey in Logos</h3>
               </Copy>
             </div>
           </div>
@@ -144,17 +144,14 @@ const page = () => {
             <div className="sp-copy-description">
               <Copy>
                 <p>
-                  OGS.VN is a software platform that uses blockchain and artificial intelligence 
-                  to build applications to improve civil infrastructure. 
-                  The company's tools automate and accelerate the construction industry's workflow,
-                  management and verification, and its technology also integrates with wearables 
-                  to meet safety regulations.
+                  Logofolio 2025 is a curated collection of my branding and logo design work, 
+                  showcasing how strategy and creativity come together to build memorable brand identities.
                 </p>
               </Copy>
 
               <div className="sp-link">
                 <div className="sp-link-wrapper">
-                  <BtnLink route="/" label="Live Demo" />
+                  <BtnLink route="/contact" label="contact" />
                 </div>
               </div>
             </div>
@@ -231,9 +228,9 @@ const page = () => {
             <Copy>
               <h1
                 style={{ cursor: "pointer" }}
-                onClick={() => window.location.href = "/project/hidden-signal"}
+                onClick={() => window.location.href = "/project/danhoa"}
               >
-                Hidden Signal
+                Đan Hoa Productions
               </h1>
             </Copy>
           </div>
