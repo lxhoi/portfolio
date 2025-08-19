@@ -130,9 +130,8 @@ const page = () => {
 
           <div className="contact-address">
             <Copy delay={1.45}>
-              <p className="caps sm">Copenhagen</p>
-              <p className="caps sm">Unit 02 Refshalevej 167A</p>
-              <p className="caps sm">1432 KØBENHAVN K</p>
+              <p className="caps sm">+84 812 914 786</p>
+              <p className="caps sm">lxhoi.2k@gmail.com</p>
             </Copy>
           </div>
         </div>
