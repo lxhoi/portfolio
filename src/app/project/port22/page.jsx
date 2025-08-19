@@ -120,13 +120,13 @@ const page = () => {
           <div className="sp-col sp-col-sm">
             <div className="sp-year">
               <Copy delay={0.15}>
-                <p className="sm caps mono">2025</p>
+                <p className="sm caps mono">2022</p>
               </Copy>
             </div>
 
             <div className="client">
               <Copy delay={0.3}>
-                <p className="sm caps mono">Self-Initiated</p>
+                <p className="sm caps mono">HOIBRANDS</p>
               </Copy>
             </div>
           </div>
@@ -136,7 +136,7 @@ const page = () => {
           <div className="sp-col-lg">
             <div className="sp-copy-title">
               <Copy>
-                <h3>Exploring Directions Through Structured Design</h3>
+                <h3>Brandmarks & Beyond</h3>
               </Copy>
             </div>
           </div>
@@ -144,11 +144,10 @@ const page = () => {
             <div className="sp-copy-description">
               <Copy>
                 <p>
-                  OGS.VN is a software platform that uses blockchain and artificial intelligence 
-                  to build applications to improve civil infrastructure. 
-                  The company's tools automate and accelerate the construction industry's workflow,
-                  management and verification, and its technology also integrates with wearables 
-                  to meet safety regulations.
+                  This logofolio is a curated collection of my branding and logo design work, 
+                  showcasing how strategy and creativity come together to build 
+                  memorable brand identities. Each mark is crafted with purpose—to tell a story, 
+                  capture a vision, and create lasting impact.
                 </p>
               </Copy>
 
@@ -201,9 +200,9 @@ const page = () => {
             <Copy>
               <h1
                 style={{ cursor: "pointer" }}
-                onClick={() => window.location.href = "/project/hidden-signal"}
+                onClick={() => window.location.href = "/project/ogs"}
               >
-                Hidden Signal
+                OGS.VN
               </h1>
             </Copy>
           </div>
