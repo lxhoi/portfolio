@@ -81,10 +81,10 @@ const Footer = () => {
             </a>
           </div>
           <div className="footer-social">
-            <a href="https://www.instagram.com/lexuanhoi.brands/">
+            <a href="https://t.me/hoibrands">
               <div className="footer-text">
                 <div className="footer-text-content">
-                  <h2>Instagram</h2>
+                  <h2>Telegram</h2>
                 </div>
               </div>
             </a>
