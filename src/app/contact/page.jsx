@@ -132,6 +132,7 @@ const page = () => {
             <Copy delay={1.45}>
               <p className="caps sm">+84 812 914 786</p>
               <p className="caps sm">lxhoi.2k@gmail.com</p>
+              <p className="caps sm">t.me/hoibrands</p>
             </Copy>
           </div>
         </div>
